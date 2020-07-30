@@ -1,6 +1,8 @@
-#' En cual directorio va a buscar R los paquetes?
+# Texto sin acentos
 
-# Prueba con .libPaths(), .Library
+#' En que directorio va a buscar R los paquetes?
+
+# Prueba con .libPaths() y .Library
 
 
 #' Paquetes instalados
@@ -15,12 +17,12 @@
 
 #' Explora los paquetes que tienes instalados
 
-## Puedes contar algunas cosas! Algunas ideas:
+## Puedes contar algunas cosas! Aqui hay algunas ideas:
 ##   * Ordena los paquetes de acuerdo con su LibPath, Priority, o ambos
 ##   * Cuantos de ellos necesitan ser compilados?
 ##   * En que version de R se construyeron?
 
-## Para los amantes del tidyverse, aqui hay algunas pistas
+## Para los amantes del tidyverse, aqui hay algunas funciones utiles
 # data %>% count(var)
 # data %>% count(var1, var2)
 # data %>% count(var) %>% mutate(prop = n / sum(n))
@@ -38,7 +40,7 @@
 
 ## Si aun te queda tiempo hagamos estos ejercicios...
 
-## Todos los paquetes que encontramos en .Library son de R base o recomendados?
+## Los paquetes que encontramos en .Library pertenecen unicamente a R base ?
 ## Como es el estilo de los nombres de los paquetes instalados? (estan escritos
 ## con minusculas? Contienen signos de puntuacion . - _ ? ), etc.
 ## Usa el argumento `fields` de installed.packages() para obtener mas 
