@@ -1,11 +1,11 @@
 ## Texto sin acentos
 
-## Hagamos la exploracion de nuestras librerias de otra forma
+## Estas son algunas opciones para explorar tus paquetes instalados
 
 #' Sabemos que R busca la ubicacion de los paquetes en la ruta dada por:
 .libPaths()
 
-## Confirmemos que en efecto el segundo elemento de nuestro resultado 
+## Confirmemos que en efecto el segundo elemento de nuestro resultado
 ## corresponda con la libreria que R toma por defecto para instalar paquetes
 .Library
 identical(.Library, .libPaths()[1])
