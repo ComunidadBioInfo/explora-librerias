@@ -40,7 +40,8 @@
 
 ## Si aun te queda tiempo hagamos estos ejercicios...
 
-## Los paquetes que encontramos en .Library pertenecen unicamente a R base ?
+## Cuantos paquetes pertenecen ya sea a paquetes base o recomendados? Son todos
+## los que tenemos instalados?
 ## Como es el estilo de los nombres de los paquetes instalados? (estan escritos
 ## con minusculas? Contienen signos de puntuacion . - _ ? ), etc.
 ## Usa el argumento `fields` de installed.packages() para obtener mas 
