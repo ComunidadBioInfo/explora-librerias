@@ -6,5 +6,9 @@ Actividad de la sesión "Introducción al flujo de trabajo orientado a proyectos
 Para descargar este material ejecuta el siguiente comando desde tu sesión de R:
 
 ```
+if (!require("usethis")) {
+    install.packages("usethis")
+}
+
 usethis::use_course("comunidadbioinfo/explora-librerias")
 ```
